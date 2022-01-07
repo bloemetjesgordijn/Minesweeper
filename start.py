@@ -5,14 +5,6 @@ import essentials
 import pandas as pd
 import numpy as np
 
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
-from selenium.common.exceptions import TimeoutException
-from selenium.common.exceptions import NoSuchElementException 
-from selenium.common.exceptions import ElementClickInterceptedException       
-from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 
